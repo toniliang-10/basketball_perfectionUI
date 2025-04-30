@@ -95,7 +95,10 @@ export default function Home() {
         </div>
         
         <div className={`hero-content ${isLoaded ? 'fade-in' : ''}`}>
-          <h1 className="main-title">Perfect Your Shot</h1>
+          <div className="logo-container">
+            <img src="/raw.png" alt="Elbo Logo" className="brand-logo" />
+          </div>
+          <h1 className="main-title">Perfect Your Shot with Elbo</h1>
           <p className="subtitle">
             Advanced analytics and personalized training to elevate your basketball shooting performance
           </p>
